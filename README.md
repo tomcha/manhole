@@ -7,17 +7,17 @@ Manhole
 
 You should catch the people by moving the manhole Man.
 
-manhole Man => ~
-passer      => 1
+- manhole Man => ~
+- passer      => 1
 
 
 Dropping the three people the game is over.
 
 move key
-  upper left  'u'
-  upper right 'i'
-  lower left  'j'
-  lower right 'k'
+- upper left  'u'
+- upper right 'i'
+- lower left  'j'
+- lower right 'k'
 
 # DESCRIPTION
 
