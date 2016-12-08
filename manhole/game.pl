@@ -15,11 +15,11 @@ my $miss = 0;
 
 my $scr = new Term::Screen;
 unless ($scr) { die " Something's wrong \n"; }
-my $score = 0;
+my $score = 9;
 my $manhole_locate = 'u';
 
 my $start_hires = [gettimeofday];
-my $interval = 1;
+my $interval = 1.0;
 my $turn_of_updown = 0;
 my $lv = 1;
 
@@ -57,7 +57,7 @@ sub game_main{
 }
 sub set_interval{
   if ($lv < 10){
-    $interval -= 0.1 * $lv;
+    $interval -= 0.0005# * $lv;
   }
 }
 
